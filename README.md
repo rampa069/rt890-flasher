@@ -22,7 +22,7 @@ Options:
 - `-d, --debug`: Enable extra debugging information
 - `-l, --list`: List available serial ports
 
-### Backup Firmware
+### Backup SPI eeprom
 
 ```bash
 rt890-backup [OPTIONS] PORT OUTPUT_FILE
@@ -34,7 +34,7 @@ Options:
 - `-d, --debug`: Enable extra debugging information
 - `-l, --list`: List available serial ports
 
-### Restore Firmware
+### Restore SPI eeprom
 
 ```bash
 rt890-restore [OPTIONS] PORT BACKUP_FILE
