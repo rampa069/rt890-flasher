@@ -62,12 +62,12 @@ Flash firmware:
 rt890-flash /dev/ttyUSB0 firmware.bin
 ```
 
-Backup firmware:
+Backup SPI eeprom:
 ```bash
 rt890-backup /dev/ttyUSB0 backup.bin
 ```
 
-Restore firmware:
+Restore SPI eeprom:
 ```bash
 rt890-restore /dev/ttyUSB0 backup.bin
 ```
